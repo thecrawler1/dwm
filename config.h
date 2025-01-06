@@ -30,6 +30,7 @@ static const Rule rules[] = {
 	{ "Gimp",     	NULL,       NULL,       0,            1,           -1,		0 },
 	{ "firefox",  	NULL,       NULL,       1 << 3,       0,           -1,		0 },
 	{ "Alacritty",  NULL,       NULL,       1 << 1,       0,           -1,		1 },
+	{ "discord", 	NULL,       NULL,       1 << 0,       0,           -1,		0 },
 };
 
 /* layout(s) */
