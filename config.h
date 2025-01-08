@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#define TAG(X) (1 << (X - 1))
+
 /* appearance */
 static const unsigned int borderpx  = 0;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -27,10 +29,12 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      	instance    title       tags mask     isfloating   monitor	border width */
-	{ "Gimp",     	NULL,       NULL,       0,            1,           -1,		0 },
-	{ "firefox",  	NULL,       NULL,       1 << 3,       0,           -1,		0 },
-	{ "Alacritty",  NULL,       NULL,       1 << 1,       0,           -1,		1 },
-	{ "discord", 	NULL,       NULL,       1 << 0,       0,           -1,		0 },
+	{ "Alacritty",  NULL,       NULL,       TAG(2),       0,           -1,		  1 },
+	{ "Compass",    NULL,       NULL,       TAG(5),       0,           -1,		  0 },
+	{ "Gimp",       NULL,       NULL,       TAG(3),       1,           -1,		  0 },
+	{ "Postman",    NULL,       NULL,       TAG(7),       0,           -1,		  0 },
+	{ "discord",    NULL,       NULL,       TAG(1),       0,           -1,		  0 },
+	{ "firefox",    NULL,       NULL,       TAG(4),       0,           -1,		  0 },
 };
 
 /* layout(s) */
