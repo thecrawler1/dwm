@@ -30,6 +30,7 @@ static const Rule rules[] = {
 	 */
 	/* class      	instance    title       tags mask     isfloating   monitor	border width */
 	{ "Alacritty",  NULL,       NULL,       TAG(2),       0,           -1,		  1 },
+	{ "Chromium",   NULL,       NULL,       TAG(5),       0,           -1,		  0 },
 	{ "Compass",    NULL,       NULL,       TAG(5),       0,           -1,		  0 },
 	{ "Gimp",       NULL,       NULL,       TAG(3),       1,           -1,		  0 },
 	{ "Postman",    NULL,       NULL,       TAG(7),       0,           -1,		  0 },
