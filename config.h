@@ -36,6 +36,7 @@ static const Rule rules[] = {
 	{ "Postman",    NULL,       NULL,       TAG(7),       0,           -1,		  0 },
 	{ "discord",    NULL,       NULL,       TAG(1),       0,           -1,		  0 },
 	{ "firefox",    NULL,       NULL,       TAG(4),       0,           -1,		  0 },
+	{ "FreeTube",   NULL,       NULL,       TAG(3),       0,           -1,		  0 },
 };
 
 /* layout(s) */
